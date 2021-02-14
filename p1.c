@@ -10,10 +10,10 @@ int i, n, a[10];
 
 void create() {
 	printf("Enter How many elements? : ");
-	scanf(%d, &n);
+	scanf("%d", &n);
 	for (i = 0; i < n; i++) {
 		printf("\nEnter a number : ");
-		scanf(%d, %a[i]);
+		scanf("%d", &a[i]);
 	}
 }
 
