@@ -14,6 +14,7 @@ void read(char str[10], char pat[10], char rep[10])
 void replace(char str[10], char pat[10], char rep[10]) {
     char res[20];
     int c, m, i, j, k, occ;
+    c = m = i = j = occ = 0;
     while (str[c] != '\0')
     {
         if (str[m] == pat[i]) {
